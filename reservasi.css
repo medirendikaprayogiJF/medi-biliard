@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaeaea;
+    margin: 0;
+}
+
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.reservasi {
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.reservasi form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservasi label {
+    margin-top: 10px;
+}
+
+.reservasi input,
+.reservasi select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.reservasi button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reservasi button:hover {
+    background: #333;
+}
+
+.back {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #111;
+}
